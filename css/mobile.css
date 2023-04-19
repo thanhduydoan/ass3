@@ -1,0 +1,11 @@
+@media screen and (max-width: 939px) and (min-width: 480px) {
+  .navbar-nav {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .navbar-nav .nav-item:nth-child(3) {
+    display: none;
+  }
+}

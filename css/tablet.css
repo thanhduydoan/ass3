@@ -2,4 +2,97 @@
   .navbar-nav .nav-item:nth-child(3) {
     display: none;
   }
+  .row-3 {
+    padding: 20px;
+  }
+
+  .project {
+    overflow: hidden;
+  }
+
+  .project-row p:first-child {
+    margin-left: 5px;
+  }
+
+  .project-row .group {
+    padding-left: 5px;
+  }
+
+  .project-row i {
+    margin-right: 5px;
+  }
+
+  .certificate .container {
+    width: 100%;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .nav-bar .nav-item a:nth-child(3) {
+    display: none;
+  }
+
+  .nav-bar .nav-item {
+    max-width: 100%;
+  }
+  .about .container {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+
+  .banner img {
+    height: auto;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .job-info .container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: mansonry;
+    line-height: 1.7;
+  }
+
+  .row-3 {
+    padding: 20px;
+  }
+
+  .project {
+    overflow: hidden;
+  }
+
+  .project-row p:first-child {
+    margin-left: 5px;
+  }
+
+  .project-row .group {
+    padding-left: 5px;
+  }
+
+  .project-row i {
+    margin-right: 5px;
+  }
+
+  .certificate .container {
+    width: 100%;
+  }
+
+  .certificate-row:last-child:after {
+    content: "";
+    display: inline-block;
+    width: 200%;
+    height: 1px;
+    background: #d6c08d;
+  }
 }
